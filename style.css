@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cover {
+  display: block;
+  width: 50vw;
+  max-width: 600px;
+  height: auto;       
+}
+#title {
+  position: absolute;
+  bottom: calc(100% + 15px);
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: clamp(2rem, 5vw, 3rem);
+  white-space: nowrap;
+}
+#latvia-time, #toolbar {
+  text-align: center;
+}
+#latvia-time {
+  font-style: italic;
+}
