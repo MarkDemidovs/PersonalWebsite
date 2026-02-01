@@ -1,3 +1,3 @@
 # PersonalWebsite
-<a href="https://markdemidovs.github.io/PersonalWebsite/">Open the website</a>
+<a href="https://markdemidovs.github.io/PersonalWebsite/">Visit the website!</a>
 
