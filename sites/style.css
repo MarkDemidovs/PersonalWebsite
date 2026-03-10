@@ -1,0 +1,88 @@
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#XXXTENTACION {
+    background-color: blue;
+    padding-bottom: 10px;
+
+}
+
+#XXXTENTACION a {
+    color: yellow;
+    font-size: 100px;
+}
+
+#XXXTENTACION h2 {
+    color: rgb(68, 68, 1);
+    font-style: italic;
+}
+
+.SPONSORED h1 {
+    background-color: red;
+    color: WHITE;
+    animation: blink 1s infinite;
+}
+
+.SPONSORED {
+    background-color: red;
+}
+
+.upperJoke {
+    background-color: yellow;
+}
+
+.lowerJoke {
+    background-color: green;
+}
+
+.jokeOfTheDay {
+    width: 200px;
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.jokes {
+    display: flex;
+    flex-direction: column;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+canvas {
+    border: 1px solid white;
+    background: black;
+    
+}
+
+
+#tetrisBreak {
+    display: flex;
+    background: black;
+    color: white;
+}
+
+#gubbyText {
+    font-size: 30px;
+}
+
+#cookieClicker {
+    background-color: blue;
+}
