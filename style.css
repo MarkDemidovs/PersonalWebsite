@@ -30,6 +30,7 @@ body {
   font-size: clamp(2rem, 5vw, 3rem);
   white-space: nowrap;
 }
+
 #latvia-time, #toolbar {
   text-align: center;
 }
